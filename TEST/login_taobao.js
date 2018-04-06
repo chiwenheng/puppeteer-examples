@@ -12,9 +12,9 @@ async function run() {
 
     console.log('page.goto');
     sleep.sleep(2);
-    await page.type('#TPL_username_1','playmore2010')
+    await page.type('#TPL_username_1','yyy')
     sleep.sleep(4);
-    await page.type('#TPL_password_1','grea2t017')//账号密码，输入太快了
+    await page.type('#TPL_password_1','xxx')//账号密码，输入太快了
     sleep.sleep(2);
     await page.click('#J_SubmitStatic')//不行，有滑动块验证
 
