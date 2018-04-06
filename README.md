@@ -5,6 +5,7 @@ Puppeteer Headless Chrome examples for real life use cases. Clone this repo and 
 ```bash
 git clone https://github.com/checkly/puppeteer-examples
 cd puppeteer-examples
+# 需要deactivate python虚拟环境
 npm i
 node 2.\ search/amazon.js
 ```

@@ -8,20 +8,22 @@
  */
 
 const puppeteer = require('puppeteer');
+let sleep=require('sleep');
 
 (async () => {
-  const browser = await puppeteer.launch()
+  const browser = await puppeteer.launch({headless:false})
   const page = await browser.newPage()
+
+    sleep.sleep(2);
 
   // set the viewport so we know the dimensions of the screen
   await page.setViewport({ width: 800, height: 600 })
-
-  // go to a page setup for mouse event tracking
+    // go to a page setup for mouse event tracking
   await page.goto('http://unixpapa.com/js/testmouse.html')
-
+    sleep.sleep(2);
   // click an area
   await page.mouse.click(132, 103, { button: 'left' })
-
+    sleep.sleep(2);
   // the screenshot should show feedback from the page that right part was clicked.
   await page.screenshot({ path: 'mouse_click.png' })
   await browser.close()

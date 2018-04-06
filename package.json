@@ -10,7 +10,8 @@
     "file-system": "^2.2.2",
     "jest": "^21.2.1",
     "js-comments": "^0.5.4",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "sleep": "^5.1.1"
   },
   "repository": {
     "type": "git",
