@@ -12,6 +12,7 @@ let sleep=require('sleep');
   const browser = await puppeteer.launch({headless:false})
   const page = await browser.newPage()
   await page.goto('https://trix-editor.org/')
+  sleep.sleep(2);
   await page.focus('trix-editor')
   await page.keyboard.type('Just adding a title')
   await page.screenshot({ path: 'keyboard.png' })

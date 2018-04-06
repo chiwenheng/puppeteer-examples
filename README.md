@@ -1,5 +1,5 @@
 # Puppeteer examples
-
+- 视频：https://www.bilibili.com/video/av21754950/
 Puppeteer Headless Chrome examples for real life use cases. Clone this repo and run them directy with a simple `node` command.
 
 ```bash

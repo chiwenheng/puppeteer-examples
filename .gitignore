@@ -53,3 +53,4 @@ jspm_packages
 .idea
 *.png
 trace.json
+3-login/password_file.js
