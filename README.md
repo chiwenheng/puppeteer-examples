@@ -1,7 +1,8 @@
 # Puppeteer examples
 - 视频：https://www.bilibili.com/video/av21754950/
-Puppeteer Headless Chrome examples for real life use cases. Clone this repo and run them directy with a simple `node` command.
 
+Puppeteer Headless Chrome examples for real life use cases. Clone this repo and run them directy with a simple `node` command.
+- 安装
 ```bash
 git clone https://github.com/checkly/puppeteer-examples
 cd puppeteer-examples
