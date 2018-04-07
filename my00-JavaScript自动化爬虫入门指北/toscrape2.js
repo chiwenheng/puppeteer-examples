@@ -34,4 +34,4 @@ scrape().then((value) => {
 })
 
 //退出
-process.exit(0)
+// process.exit(0)

@@ -28,6 +28,8 @@ async function run(url) {
   // await page.click('#pl_login_form > div > div:nth-child(3) > div.info_list.verify.clearfix > div > input')
   await page.keyboard.press('Tab')
   await page.keyboard.type(data.password)
+  //await page.type("input[type=email]", "abcdefghijklmnopqrstuvwxyz")
+
   console.log('type(data.password)')
   await page.click('#pl_login_form > div > div:nth-child(3) > div.info_list.login_btn > a')
 

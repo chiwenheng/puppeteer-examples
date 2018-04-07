@@ -14,4 +14,7 @@ tesseract.process(__dirname + '/mdoc.jpeg',function(err, text) {
 });
 
 //
-tesseract.toString()
+// tesseract.toString()
+
+// var rs=tesseract.process(__dirname + '/mdoc.jpeg')
+// console.log(rs)
