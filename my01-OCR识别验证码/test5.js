@@ -4,7 +4,7 @@
 
 var tesseract = require('node-tesseract')
 
-var rs = async tesseract.process(__dirname + '/' + 'mdoc.jpeg', function (err, text) {
+var rs =  tesseract.process(__dirname + '/' + 'mdoc.jpeg', function (err, text) {
     if (err) {
       return console.error(err)
     } else {
