@@ -6,7 +6,8 @@
     "puppeteer": "^1.0.0"
   },
   "devDependencies": {
-    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-mocha": "^4.12.1",
     "file-system": "^2.2.2",
     "jest": "^21.2.1",
     "js-comments": "^0.5.4",
