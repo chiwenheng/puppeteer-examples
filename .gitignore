@@ -55,3 +55,4 @@ jspm_packages
 trace.json
 3-login/password_file.js
 my01-OCR识别验证码/data.js
+my02-微博-明星-实时更新/data.js
