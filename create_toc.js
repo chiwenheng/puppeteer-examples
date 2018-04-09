@@ -3,13 +3,13 @@ const fsS = require('file-system')
 const comments = require('js-comments')
 const _ = require('lodash')
 const toc = {}
-const rootUrl = 'https://github.com/checkly/puppeteer-examples/blob/master'
+const rootUrl = 'https://github.com/checkly/puppeteer-官方examples/blob/master'
 
-const pageHeader = '# Puppeteer examples\n\nPuppeteer Headless Chrome examples for real life use cases. Clone this repo' +
+const pageHeader = '# Puppeteer 官方examples\n\nPuppeteer Headless Chrome 官方examples for real life use cases. Clone this repo' +
   ' and run them directy with a simple `node` command.\n\n' +
   '```bash\n' +
-  'git clone https://github.com/checkly/puppeteer-examples\n' +
-  'cd puppeteer-examples\n' +
+  'git clone https://github.com/checkly/puppeteer-官方examples\n' +
+  'cd puppeteer-官方examples\n' +
   'npm i\n' +
   'node 2.\\ search/amazon.js\n' +
   '```\n' +
