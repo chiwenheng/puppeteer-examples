@@ -24,7 +24,11 @@
 const puppeteer = require('puppeteer');
 
 (async() => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    args: [ '--proxy-server=127.0.0.1:8123' ],
+    headless:false,
+    timedout:0
+  });
   const page = await browser.newPage();
 
   await page.goto('https://developers.google.com/web/');
@@ -51,5 +55,6 @@ const puppeteer = require('puppeteer');
   }, resultsSelector);
   console.log(links.join('\n'));
 
+  await page.screenshot({path: 'developers.google-search.png', fullPage: true});
   await browser.close();
 })();

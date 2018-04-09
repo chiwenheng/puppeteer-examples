@@ -28,7 +28,8 @@ const puppeteer = require('puppeteer');
     else
       request.continue();
   });
-  await page.goto('https://news.google.com/news/');
+  // await page.goto('https://news.google.com/news/');
+  await page.goto('http://www.163.com/');
   await page.screenshot({path: 'news.png', fullPage: true});
 
   await browser.close();

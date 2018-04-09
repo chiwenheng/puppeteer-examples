@@ -51,7 +51,7 @@ jspm_packages
 .yarn-integrity
 
 .idea
-*.png
+#*.png
 trace.json
 3-login/password_file.js
 my01-OCR识别验证码/data.js
