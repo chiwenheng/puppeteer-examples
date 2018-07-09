@@ -9,6 +9,9 @@
     - 拦截网络请求
         - DevTools API
         - 设置下载传入文件的方式和位置Page.setDownloadBehavior()
+    - 重定向
+        - 禁止 page.goto(url,{followRedirect: false}) 
+            - https://github.com/GoogleChrome/puppeteer/issues/1132
         
     - 广告拦截
         - DevTools协议还有Network.setBlockedURLs()一个带有通配符的字符串数组作为输入
